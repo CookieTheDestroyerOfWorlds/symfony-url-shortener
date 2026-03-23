@@ -1,0 +1,7 @@
+framework:
+    rate_limiter:
+        create_short_url:
+            policy: fixed_window
+            limit: 20
+            interval: '1 minute'
+            lock_factory: lock.factory
