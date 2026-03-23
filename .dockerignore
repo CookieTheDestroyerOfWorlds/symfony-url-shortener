@@ -1,0 +1,13 @@
+.git
+.github
+.gitignore
+docker
+docker-compose*.yml
+*.md
+*.dist.xml
+phpunit.xml
+var/cache
+var/log
+tests
+.env.local
+.env.*.local
